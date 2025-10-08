@@ -1,1 +1,23 @@
+# Virtuelle Umgebung
 venv/
+
+# Umgebungsdateien
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Python-Cache und -Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Systemdateien
+.DS_Store
+
+# IDE-spezifische Dateien
+.vscode/
+
+# Logs und Outputs
+*.log
+*.out
