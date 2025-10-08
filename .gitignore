@@ -4,8 +4,9 @@ venv/
 # Umgebungsdateien
 .env
 
-# Jupyter Notebook Checkpoints
-.ipynb_checkpoints/
+# Jupyter Notebook Checkpoints (Ordner, die Jupyter automatisch erzeugt)
+# Eine einzige Zeile reicht für ALLE Unterordner.
+**/.ipynb_checkpoints/
 
 # Python-Cache und -Bytecode
 __pycache__/
