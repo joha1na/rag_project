@@ -1,12 +1,18 @@
 # Virtuelle Umgebung
+.venv
 venv/
+venv.bak/
 
 # Umgebungsdateien
 .env
+env/
+ENV/
+env.bak/
 
 # Jupyter Notebook Checkpoints (Ordner, die Jupyter automatisch erzeugt)
-# Eine einzige Zeile reicht für ALLE Unterordner.
 **/.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
 # Python-Cache und -Bytecode
 __pycache__/
@@ -15,6 +21,7 @@ __pycache__/
 
 # Systemdateien
 .DS_Store
+Thumbs.db
 
 # IDE-spezifische Dateien
 .vscode/
